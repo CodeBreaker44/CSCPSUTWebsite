@@ -107,8 +107,9 @@ header {
 
 .home-intro {
     padding: 50vh 0;
-    background: #60923f url("public\\playground_assets\\Cyber_Security_Club_logoloki.svg");
+    background: #60923f url("public\\playground_assets\\Cyber_Security_Club_logoloki.png");
     background-size: cover;
+    /* width: 100%; */
     background-blend-mode: multiply;
     color: white;
     text-align: center;
