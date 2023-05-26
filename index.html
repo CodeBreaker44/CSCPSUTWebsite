@@ -12,6 +12,10 @@
   <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/footers/">
 
   <title>CSCPSUT</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="public\playground_assets\apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="public\playground_assets\favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="public\playground_assets\favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 </head>
 
 <body>
@@ -54,40 +58,48 @@
   <header class="nav">
     <a href="index.html" class="site-logo" aria-label="homepage"> <img
         src="public\playground_assets\Cyber_Security_Club_logo.png" class="loki"> </a>
-    <nav class="main-nav">
-      <ul class="nav__list">
-        <li class="nav__list-item"><a href="#" class="nav__link">Home</a></li>
-        <li class="nav__list-item">
-          <a href="#About" class="nav__link">About</a>
+    <nav class="main-nav navbar navbar-expand-lg">
+      <div class="container-fluid"></div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav__list navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav__list-item nav-item"><a href="#" class="nav__link">Home</a></li>
+          <li class="nav__list-item">
+            <a href="#About" class="nav__link">About</a>
+          </li>
+          <li class="nav__list-item nav-item">
+            <a href="#Achievements" class="nav__link">Achievements</a>
+          </li>
+          <li class="nav__list-item nav-item">
+            <a href="resources.html" class="nav__link">Resources</a>
+          </li>
+          <li class="nav__list-item nav-item">
+            <a href="events.html" class="nav__link">Events</a>
+          </li>
+          <li class="nav__list-item nav-item">
+            <a href="#FAQs" class="nav__link">FAQs</a>
+          </li>
+          <li class="nav__list-item nav-item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
         </li>
-        <li class="nav__list-item">
-          <a href="#Achievements" class="nav__link">Achievements</a>
-        </li>
-        <li class="nav__list-item">
-          <a href="resources.html" class="nav__link">Resources</a>
-        </li>
-        <li class="nav__list-item">
-          <a href="events.html" class="nav__link">Events</a>
-        </li>
-        <li class="nav__list-item">
-          <a href="#FAQs" class="nav__link">FAQs</a>
-        </li>
-        <li class="nav__list-item">
-          <a href="#contact" class="nav__link">Contact</a>
-        </li>
-      </ul>
-      </li>
 
-      </ul>
+        </ul>
+        <nav class="account">
+          <ul class="nav__list">
+            <li class="nav__list-item">
+              <a class="nav__link nav__link--btn nav__link--btn--highlight"
+                href="https://forms.gle/rUfz1QuRM436cBm16">Join</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      </div>
     </nav>
-    <nav class="account">
-      <ul class="nav__list">
-        <li class="nav__list-item">
-          <a class="nav__link nav__link--btn nav__link--btn--highlight"
-            href="https://forms.gle/rUfz1QuRM436cBm16">Join</a>
-        </li>
-      </ul>
-    </nav>
+
   </header>
 
   <main>
@@ -117,7 +129,7 @@
     <h2 style="padding-left: 100px;">Our Mission</h2>
     <div class="home-more-stuff">
       <div class="more-stuff-grid">
-        
+
 
         <p class="slide-in from-right shift-right">
           At Cyber Security Club PSUT, our mission is to provide a platform for students to learn and enhance their
@@ -141,7 +153,7 @@
 
       <!-- create a slide show -->
       <h2 class="slide-in from-right" style="text-align: center;">CSC Achievements</h2>
-      <div class="container" >
+      <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -170,7 +182,7 @@
                   aria-label="Slide 11"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="11"
                   aria-label="Slide 12"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="12"
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="12"
                   aria-label="Slide 13"></button>
               </div>
               <div class="carousel-inner">
